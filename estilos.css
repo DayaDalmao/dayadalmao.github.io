@@ -1,94 +1,164 @@
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
-    background-image: url(imagen/fondo-prog.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center 89%;
-    color: rgb(6, 30, 240); /* color letra presentacion */
-    text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+  background-image: url(fondo-prog/fondo-prog.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 89%;
+  color: rgb(6, 30, 240); /* color letra presentacion */
+  text-align: center;
 }
 
 
 h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 50px; 
-    margin-bottom: 1px; 
-    color: white; 
-    background-color:rgb(6, 30, 240); /* color titulo bienvenidos.. */
-    padding: 10px; 
-    width: 1300px;
-  height: 50px;
-  border-color: rgb(252, 248, 248);
-  border-width: 5px;
-  border-style: dashed;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 50px; 
+  margin-bottom: 1px; 
+  color: white; 
+  background-color:rgb(6, 30, 240); /* color titulo bienvenidos.. */
+  padding: 10px; 
+  width: 1300px;
+height: 50px;
+border-color: rgb(252, 248, 248);
+border-width: 5px;
+border-style: dashed;
 }
 
 p{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(6, 30, 240); /* color un poco acerca de mi, + contenido dentro de ex laboral, estudio etc */
-    font-size: 1em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(6, 30, 240); /* color un poco acerca de mi, + contenido dentro de ex laboral, estudio etc */
+  font-size: 1em;
 }
 
 #cartadeinformacion {
-    margin: 20px auto;
-    max-width: 600px;
-    background-color: rgba(228, 184, 41, 0.932);
-    padding: 20px;
-    width: 1000px;
-  height: 150px;
-  border-color: rgb(252, 248, 248);
-  border-width: 5px;
-  border-style: dashed;
+  margin: 20px auto;
+  max-width: 600px;
+  background-color: rgba(228, 184, 41, 0.932);
+  padding: 20px;
+  width: 1000px;
+height: 150px;
+border-color: rgb(252, 248, 248);
+border-width: 5px;
+border-style: dashed;
 }
 
 
 
 #estudios {
-    margin: 20px auto;
-    max-width: 600px;
-    background-color: rgba(228, 184, 41, 0.932);
-    padding: 20px;
-    width: 1000px;
-  height: 150px;
-  border-color: rgb(252, 248, 248);
-  border-width: 5px;
-  border-style: dashed;
+  margin: 20px auto;
+  max-width: 600px;
+  background-color: rgba(228, 184, 41, 0.932);
+  padding: 20px;
+  width: 1000px;
+height: 150px;
+border-color: rgb(252, 248, 248);
+border-width: 5px;
+border-style: dashed;
 }
 
 #experiencialaboral {
-    margin: 20px auto;
-    max-width: 600px;
-    background-color: rgba(228, 184, 41, 0.932);
-    padding: 20px;
-    width: 1000px;
-  height: 170px;
-  border-color: rgb(252, 248, 248);
-  border-width: 5px;
-  border-style: dashed;
-    
+  margin: 20px auto;
+  max-width: 600px;
+  background-color: rgba(228, 184, 41, 0.932);
+  padding: 20px;
+  width: 1000px;
+height: 170px;
+border-color: rgb(252, 248, 248);
+border-width: 5px;
+border-style: dashed;
+  
 }
 
 
 #idiomas {
-    margin: 20px auto;
-    max-width: 600px;
-    background-color: rgba(228, 184, 41, 0.932);
-    padding: 20px;
-    width: 1000px;
-  height: 150px;
-  border-color: rgb(252, 248, 248);
-  border-width: 5px;
-  border-style: dashed;
+  margin: 20px auto;
+  max-width: 600px;
+  background-color: rgba(228, 184, 41, 0.932);
+  padding: 20px;
+  width: 1000px;
+height: 150px;
+border-color: rgb(252, 248, 248);
+border-width: 5px;
+border-style: dashed;
 }
 
 #informaciondecontacto {
-    margin: 20px auto;
-    max-width: 600px;
-    background-color: rgba(228, 184, 41, 0.932);
-    padding: 20px;
-    width: 1000px;
-  height: 150px;
-  border-color: rgb(252, 248, 248);
-  border-width: 5px;
-  border-style: dashed;
+  margin: 20px auto;
+  max-width: 600px;
+  background-color: rgba(228, 184, 41, 0.932);
+  padding: 20px;
+  width: 1000px;
+height: 150px;
+border-color: rgb(252, 248, 248);
+border-width: 5px;
+border-style: dashed;
 }
+
+/* Media queries para dispositivos más grandes */
+@media (max-width: 1366px) {
+  h1 {
+    font-size: 2em;
+    padding: 15px;
+    width: 90%; /* Reduce el ancho del título */
+  }
+
+  #cartadeinformacion, #estudios, #experiencialaboral, #idiomas, #informaciondecontacto {
+    padding: 15px;
+    max-width: 90%;
+    height: auto;
+  }
+
+  p {
+    font-size: 0.95em; /* Ajusta el tamaño del texto */
+  }
+}
+
+/* Media queries para dispositivos medianos */
+  @media (max-width: 720px) {
+    h1 {
+      font-size: 1.5em;
+      padding: 10px;
+      width: 95%; /* Ajuste del ancho para pantallas pequeñas */
+    }
+  
+    #cartadeinformacion, #estudios, #experiencialaboral, #idiomas, #informaciondecontacto {
+      padding: 10px;
+      max-width: 95%;
+      height: auto; /* Ajuste automático de la altura */
+    }
+  
+    p {
+      font-size: 0.85em; 
+    }
+  
+    body {
+      padding: 5px; /* Reducir el padding general del body */
+    }
+  }
+  
+/* Media queries para dispositivos más pequeños */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.2em;
+    padding: 5px;
+    max-width: 95%;
+  }
+
+ #cartadeinformacion, #estudios, #experiencialaboral, #idiomas, #informaciondecontacto {
+    padding: 10px;
+    max-width: 95%;
+  }
+
+  p {
+    font-size: 0.8em;
+  }
+
+  
+}
+
+
+
+
+
+
+
+
