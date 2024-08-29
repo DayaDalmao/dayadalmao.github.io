@@ -1,11 +1,11 @@
 body {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
-  background-image: url(fondo-prog/fondo-prog.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center 89%;
-  color: rgb(6, 30, 240); /* color letra presentacion */
-  text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    background-image: url(imagen/fondo-prog.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 89%;
+    color: rgb(6, 30, 240); /* color letra presentacion */
+    text-align: center;
 }
 
 
